@@ -32,10 +32,10 @@ const upload = multer({ storage });
 
 // MySQL connection
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'household_tracker'
+  host: 'sql12.freesqldatabase.com',
+  user: 'sql12788702',
+  password: 'aT9X9nzBPz',
+  database: 'sql12788702'
 });
 
 db.connect(err => {
