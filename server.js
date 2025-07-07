@@ -15,7 +15,7 @@ if (!fs.existsSync(uploadsDir)) {
 
 // Middlewares
 app.use(cors({
-  origin: 'https://fintracker-z8x4.vercel.app', // ✅ Replace with actual frontend URL
+  origin: 'https://fintracker-home.vercel.app', // ✅ Replace with actual frontend URL
   methods: ['GET', 'POST', 'PUT', 'DELETE'],       // Optional: restrict methods
   credentials: true                                 // Optional: if you're using cookies or auth
 }));
