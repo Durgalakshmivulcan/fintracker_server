@@ -36,10 +36,10 @@ const upload = multer({ storage });
 
 // MySQL connection
 const db = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'household_tracker'
+  host: 'mysql-fintracker.alwaysdata.net',
+  user: '422876',
+  password: 'Durga@123',
+  database: 'fintracker_home'
 });
 
 db.connect(err => {
